@@ -2,8 +2,8 @@ version: 1
 cron:
   - name: "success"
     url: "/index.php?reponse"
-    schedule: "0 * * * *"
+    schedule: "* * * * *"
 
   - name: "error"
     url: "/index.php"
-    schedule: "0 * * * *"
+    schedule: "* * * * *"
